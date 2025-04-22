@@ -40,13 +40,22 @@ INSTALLED_APPS = [
     'django_filters',
     'corsheaders',
 ]
+
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     ),
     'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend'],
     'PAGE_SIZE': 10,
+    'DEFAULT_RENDERER_CLASSES': [  # Добавляем оба рендерера
+        'rest_framework.renderers.JSONRenderer',
+        'rest_framework.renderers.BrowsableAPIRenderer',
+    ],
+    'DEFAULT_PARSER_CLASSES': [
+        'rest_framework.parsers.JSONParser',
+    ],
 }
+
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
@@ -67,6 +76,7 @@ LOGGING = {
         },
     },
 }
+
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
@@ -80,10 +90,6 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-
-#CORS_ALLOWED_ORIGINS = [
-#    'http://localhost:4200',
-#]
 
 CORS_ALLOW_ALL_ORIGINS = True
 

@@ -123,3 +123,112 @@ Watching for file changes with StatReloader
 Not Found: /
 Not Found: /
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Not Found: /api/pizzas/drink
+Not Found: /api/pizzas/drinks
+C:\Users\User\Desktop\Web-Dev-project\project\pizza_project\pizza_app\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\User\Desktop\Web-Dev-project\project\pizza_project\pizza_app\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Not Found: /
+C:\Users\User\Desktop\Web-Dev-project\project\pizza_project\pizza_project\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\User\Desktop\Web-Dev-project\project\pizza_project\pizza_project\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\User\Desktop\Web-Dev-project\project\pizza_project\pizza_project\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\User\Desktop\Web-Dev-project\project\pizza_project\pizza_project\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\User\Desktop\Web-Dev-project\project\pizza_project\pizza_app\apps.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+Internal Server Error: /api/pizzas/
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Web-Dev\project\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\User\Desktop\Web-Dev\project\env\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\User\Desktop\Web-Dev\project\env\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Web-Dev\project\env\Lib\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\User\Desktop\Web-Dev\project\env\Lib\site-packages\rest_framework\renderers.py", line 730, in render
+    template = loader.get_template(self.template)
+  File "C:\Users\User\Desktop\Web-Dev\project\env\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: rest_framework/api.html
+Internal Server Error: /api/pizzas/
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Web-Dev\project\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\User\Desktop\Web-Dev\project\env\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+  File "C:\Users\User\Desktop\Web-Dev\project\env\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Desktop\Web-Dev\project\env\Lib\site-packages\rest_framework\response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\User\Desktop\Web-Dev\project\env\Lib\site-packages\rest_framework\renderers.py", line 730, in render
+    template = loader.get_template(self.template)
+  File "C:\Users\User\Desktop\Web-Dev\project\env\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: rest_framework/api.html
+C:\Users\User\Desktop\Web-Dev-project\project\pizza_project\pizza_project\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /api
+C:\Users\User\Desktop\Web-Dev-project\project\pizza_project\pizza_project\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+C:\Users\User\Desktop\Web-Dev-project\project\pizza_project\pizza_project\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\User\Desktop\Web-Dev-project\project\pizza_project\pizza_project\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Watching for file changes with StatReloader
+C:\Users\User\Desktop\Web-Dev-project\project\pizza_project\pizza_app\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+Order creation attempt by user anonymous: {'items': [{'pizza': 2, 'quantity': 1}]}
+Unauthorized order creation attempt
+Unauthorized: /api/order/
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+C:\Users\User\Desktop\Web-Dev-project\project\pizza_project\pizza_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\User\Desktop\Web-Dev-project\project\pizza_project\pizza_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\User\Desktop\Web-Dev-project\project\pizza_project\pizza_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\User\Desktop\Web-Dev-project\project\pizza_project\pizza_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\User\Desktop\Web-Dev-project\project\pizza_project\pizza_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\User\Desktop\Web-Dev-project\project\pizza_project\pizza_app\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+Watching for file changes with StatReloader
+Not Found: /
+Not Found: /
+Watching for file changes with StatReloader
